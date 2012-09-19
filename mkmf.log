@@ -1,0 +1,67 @@
+"gcc -o conftest -IC:/RailsInstaller/Ruby1.9.3/include/ruby-1.9.1/i386-mingw32 -IC:/RailsInstaller/Ruby1.9.3/include/ruby-1.9.1/ruby/backward -IC:/RailsInstaller/Ruby1.9.3/include/ruby-1.9.1 -I.     -O3 -fno-omit-frame-pointer -g -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration conftest.c  -L. -LC:/RailsInstaller/Ruby1.9.3/lib -L.      -lmsvcrt-ruby191  -lshell32 -lws2_32 -limagehlp  "
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:48: string.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:58: stdint.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:61: inttypes.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:64: stdarg.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:65: stdio.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:67,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\defines.h:27: stddef.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\defines.h:29: stdlib.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\defines.h:223,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:67,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:40: winsock2.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:41: ws2tcpip.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:58: stdio.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:59: stdlib.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:60: string.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:61: direct.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:62: process.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:63: time.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:67: math.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:71: signal.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:72: sys\stat.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:73: sys\types.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:75: sys\utime.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:79: io.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:80: malloc.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:82: stdint.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:105: unistd.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:316: float.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\win32.h:463: errno.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:178: limits.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:1376,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\missing.h:22: stddef.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\missing.h:37: sys\types.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:1377,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\intern.h:30: stdarg.h: No such file or directory
+In file included from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\intern.h:34,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\ruby.h:1377,
+                 from C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby.h:32,
+                 from conftest.c:1:
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\st.h:18: stddef.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\st.h:24: stdint.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\st.h:27: inttypes.h: No such file or directory
+C:\RailsInstaller\Ruby1.9.3\include\ruby-1.9.1\ruby\st.h:45: limits.h: No such file or directory
+conftest.c:3: winsock2.h: No such file or directory
+conftest.c:4: windows.h: No such file or directory
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main() {return 0;}
+/* end */
+
